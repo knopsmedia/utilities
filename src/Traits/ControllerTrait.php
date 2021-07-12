@@ -8,7 +8,7 @@ trait ControllerTrait
 {
     public function json(Response $response, $body, int $flags = 0): Response
     {
-        $response->getBody()->write(json_encode($body, $flags));
+        $response->getBody()->write(\json_encode($body, $flags));
 
         return $response;
     }
