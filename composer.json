@@ -18,7 +18,8 @@
         }
     },
     "require-dev": {
-        "cocur/slugify": "^4.0"
+        "cocur/slugify": "^4.0",
+        "psr/http-message": "^1.0"
     },
     "require": {
         "php": "^8.0"
